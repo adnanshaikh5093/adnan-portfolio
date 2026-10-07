@@ -11,9 +11,6 @@ function Contact() {
         <a className="button-link" href="mailto:adnanshaikh5093@gmail.com">
           adnanshaikh5093@gmail.com <span aria-hidden="true">↗</span>
         </a>
-        <a className="button-link" href="tel:+916353218300">
-          +91 6353218300 <span aria-hidden="true">↗</span>
-        </a>
       </div>
       <div className="social-links">
         <a

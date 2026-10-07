@@ -81,12 +81,14 @@ function Resume() {
     <main className="page-content resume-content page-enter">
       <p className="page-eyebrow">EXPERIENCE &amp; EXPERTISE</p>
       <h1>Resume</h1>
+      <a className="button-link" href="/resume.pdf" download>
+        Download Resume
+      </a>
       <section className="resume-section resume-summary">
         <h2>Adnan Shaikh</h2>
         <p className="resume-role">Full Stack Web Developer · MERN Stack · PostgreSQL</p>
         <div className="resume-contact">
           <span>Vadodara, Gujarat, India</span>
-          <a href="tel:+916353218300">+91 6353218300</a>
           <a href="mailto:adnanshaikh5093@gmail.com">
             adnanshaikh5093@gmail.com
           </a>
