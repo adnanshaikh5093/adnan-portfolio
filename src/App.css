@@ -281,6 +281,12 @@ body {
   margin-top: 44px;
 }
 
+@media (max-width: 900px) {
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 .project-card {
   position: relative;
   min-height: 250px;
@@ -339,6 +345,8 @@ body {
 
 .contact-links .button-link {
   margin-top: 30px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .social-links {
@@ -380,6 +388,7 @@ body {
 
 .resume-contact a {
   color: inherit;
+  overflow-wrap: anywhere;
   text-decoration: none;
 }
 
@@ -573,14 +582,23 @@ body {
   }
 
   .site-header {
-    min-height: 72px;
+    min-height: 0;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    padding: 12px 0;
   }
 
   .site-nav {
-    gap: 14px;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4px 12px;
   }
 
   .site-nav a {
+    display: inline-flex;
+    min-height: 40px;
+    align-items: center;
     font-size: 13px;
   }
 
@@ -601,9 +619,12 @@ body {
     padding: 24px;
   }
 
+  .page-content {
+    padding: 48px 0;
+  }
+
   .site-footer {
     min-height: 64px;
     font-size: 12px;
   }
 }
-
