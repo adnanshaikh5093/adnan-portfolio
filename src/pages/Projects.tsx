@@ -38,9 +38,9 @@ function Projects() {
         enterLabel="Explore projects"
         className="projects-portal"
         style={{
-          "--gp-paper": "#07111d",
+          "--gp-paper": "transparent",
           "--gp-ink": "#f7f9fc",
-          "--gp-field": "#102d42",
+          "--gp-field": "transparent",
           "--gp-foreground": "#f7f9fc",
         }}
         background={<div className="projects-portal-background" />}

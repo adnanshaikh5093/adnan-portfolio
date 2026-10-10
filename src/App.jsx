@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import "./App.css";
+import SilkBackground from "./components/SilkBackground";
 
 const pages = {
   "/": { label: "Home", component: Home },
@@ -35,6 +36,7 @@ function App() {
 
   return (
     <div className="site-shell">
+      <SilkBackground />
       <header className="site-header">
         <a className="site-brand" href="#/" aria-label="Adnan Shaikh home">
           AS<span>.</span>
