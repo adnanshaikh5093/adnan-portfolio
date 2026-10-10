@@ -35,13 +35,16 @@ const skillGroups = [
 ];
 
 const responsibilities = [
-  "Developed and maintained 5+ full-stack web applications using the MERN Stack and PostgreSQL.",
-  "Designed scalable RESTful APIs with Node.js and Express.js following MVC architecture, and integrated APIs with MySQL databases.",
-  "Implemented JWT authentication and Role-Based Access Control (RBAC) to provide secure access to application features.",
-  "Optimized PostgreSQL queries through indexing and query restructuring, reducing API response time by up to 30%.",
-  "Built reusable, responsive React components with Tailwind CSS and implemented state management using Redux and Context API.",
-  "Participated in code reviews, improved application performance, and followed secure development best practices.",
-  "Collaborated with cross-functional teams using Git-based version control and Agile practices; consistently met project deadlines.",
+  "Developed and maintained 5+ full-stack web applications using the MERN Stack and PostgreSQL over 2 years.",
+  "Designed and implemented scalable RESTful APIs using Node.js and Express.js following MVC architecture.",
+  "Designed and maintained RESTful APIs integrated with MySQL databases to handle dynamic data efficiently.",
+  "Integrated JWT-based authentication and Role-Based Access Control (RBAC) to enhance application security.",
+  "Optimized complex PostgreSQL queries using indexing and query restructuring, reducing API response time by up to 30%.",
+  "Built reusable and responsive React components using Tailwind CSS and implemented state management with Redux and Context API.",
+  "Participated in code reviews, optimized application performance, and followed best practices for secure and efficient development.",
+  "Researched and adopted modern tools, libraries, and frameworks to enhance application performance and development efficiency.",
+  "Collaborated with cross-functional teams using Git-based version control and Agile development practices.",
+  "Worked well under pressure, consistently meeting deadlines and exceeding expectations on key project deliveries.",
 ];
 
 const projects = [
@@ -50,9 +53,11 @@ const projects = [
     date: "Apr 2024 – Jul 2024",
     stack: "React.js, Node.js, Express.js, PostgreSQL, Prisma ORM, Tailwind CSS",
     details: [
-      "Built a full-stack platform with authentication, product management, shopping cart, and order processing.",
-      "Developed protected routes using JWT middleware and an admin dashboard for product, user, and order CRUD.",
-      "Implemented pagination, search, filtering, and a responsive interface.",
+      "Built a full-stack e-commerce platform with authentication, product management, shopping cart, and order processing features.",
+      "Implemented protected routes using JWT middleware for secure access control.",
+      "Developed an admin dashboard with full CRUD operations for managing products, users, and orders.",
+      "Implemented pagination, search, and filtering features for enhanced performance and scalability.",
+      "Designed a fully responsive UI ensuring cross-device compatibility.",
     ],
   },
   {
@@ -61,8 +66,9 @@ const projects = [
     stack: "MERN Stack, PostgreSQL",
     details: [
       "Developed a GST-enabled billing system with automated tax calculation and discount logic.",
-      "Implemented invoice generation, downloadable PDF reports, and customer and product management.",
-      "Created monthly sales reports for performance tracking and analytics.",
+      "Implemented dynamic invoice generation and downloadable PDF reports.",
+      "Created customer and product management modules with complete CRUD functionality.",
+      "Generated monthly sales reports for performance tracking and analytics.",
     ],
   },
   {
@@ -70,8 +76,9 @@ const projects = [
     date: "Oct 2024 – Feb 2025",
     stack: "React.js, Node.js, MongoDB",
     details: [
-      "Developed authentication-based user profile management with secure backend validation and CRUD operations.",
-      "Designed a responsive interface optimized for mobile and desktop devices.",
+      "Developed an authentication-based user profile management system.",
+      "Implemented secure backend validation and CRUD operations.",
+      "Designed a responsive user interface optimized for both mobile and desktop devices.",
     ],
   },
 ];
@@ -95,13 +102,15 @@ function Resume() {
         </div>
         <p className="resume-summary-copy">
           Results-driven Full Stack Web Developer with 2 years of professional
-          experience designing, developing, and deploying scalable web
-          applications using the MERN Stack and PostgreSQL. Proficient in
-          RESTful APIs, JWT authentication, role-based access control, MVC
-          architecture, Prisma ORM, API integration, pagination, search and
-          filtering, and responsive UI development. Recognized for strong
-          technical proficiency, problem-solving, and consistently meeting
-          project deadlines.
+          experience at AarkSoft WebTech, designing, developing, and deploying
+          scalable web applications using the MERN Stack (MongoDB, Express.js,
+          React.js, Node.js) and PostgreSQL. Proficient in building RESTful
+          APIs, implementing JWT-based Authentication, and Role-Based Access
+          Control (RBAC). Experienced in MVC architecture, Prisma ORM, API
+          Integration, Pagination, Search &amp; Filtering, and responsive UI
+          development with Tailwind CSS. Recognized for strong technical
+          proficiency, problem-solving skills, and consistently meeting project
+          deadlines.
         </p>
       </section>
 
@@ -186,6 +195,9 @@ function Resume() {
         </a>
         <a href="https://github.com/adnanshaikh5093" target="_blank" rel="noreferrer">
           GitHub <span aria-hidden="true">↗</span>
+        </a>
+        <a href="https://adnan-shaikh.vercel.app" target="_blank" rel="noreferrer">
+          Portfolio <span aria-hidden="true">↗</span>
         </a>
       </section>
     </main>
